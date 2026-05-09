@@ -9,13 +9,13 @@
 5. Run command:
 
 ```bash
-php artisan migrate --seed
+composer update
 ```
 
 6. After that, run:
 
 ```bash
-composer update
+php artisan migrate --seed
 ```
 php artisan key:genrate
 
